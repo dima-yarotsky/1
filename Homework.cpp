@@ -12,12 +12,12 @@ int main()
     b = 2.5;
     std::cout << "Vvedite t\n";
     cin>>t;
-    if (0.5 <= t <= 3);
+    if (0.5 <= t <= 3)
     {
-        if (t < a) z = a * t * t - b * pow(t + 1,1/2);
+        if (t < a) z = a * t * t - b * pow(t + 1,1/2)
         else
         {
-        if (t > b) z = a * pow(t, 2 / 3) - pow(t + 1, 1 / 3);
+        if (t > b) z = a * pow(t, 2 / 3) - pow(t + 1, 1 / 3)
         else z = a - b;
         }
         cout << "result z=\n"<< z;
