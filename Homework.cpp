@@ -15,8 +15,11 @@ int main()
     if (0.5 <= t <= 3);
     {
         if (t < a) z = a * t * t - b * pow(t + 1,1/2);
+        else
+        {
         if (t > b) z = a * pow(t, 2 / 3) - pow(t + 1, 1 / 3);
         else z = a - b;
+        }
         cout << "result z=\n"<< z;
     }
     else cout << "неверое число\n";
